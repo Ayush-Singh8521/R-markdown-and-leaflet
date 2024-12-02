@@ -1,0 +1,13 @@
+##Here's the map:
+
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng = -74.006, lat = 40.7128, popup = "New York City!")
+markdown
+Copy code
+
+### Instructions:
+1. Save the above content in a file named `leaflet_map.Rmd`.
+2. Render it to HTML by running:
+   ```r
+   rmarkdown::render("leaflet_map.Rmd")

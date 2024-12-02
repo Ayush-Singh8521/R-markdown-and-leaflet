@@ -1,0 +1,17 @@
+##R Markdown Template: Create an R Markdown file with the following content. This includes the current date ##dynamically and an interactive Leaflet map.
+
+##R Markdown Content:
+
+---
+title: "Interactive Leaflet Map"
+author: "Your Name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
+---
+
+## Interactive Map with Leaflet
+
+This web page features an interactive map created with Leaflet. The current date is displayed above.
+
+```{r setup, include=FALSE}
+library(leaflet)
